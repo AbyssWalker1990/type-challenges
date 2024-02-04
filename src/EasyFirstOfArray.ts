@@ -36,3 +36,5 @@ First<'notArray'>
 // @ts-expect-error
 First<{ 0: 'arrayLike' }>
 
+export default {}
+
