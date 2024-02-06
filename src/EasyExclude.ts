@@ -31,3 +31,5 @@ const case3: MyExclude<string | number | (() => void), Function> = 'c' || 4
 //@ts-expect-error
 const case4: MyExclude<string | number | (() => void), Function> = () => console.log(3)
 
+export default {}
+
